@@ -1,6 +1,6 @@
 # Earnest UI Coding Challenge
 
-Hi!  Thanks for taking part in the Earnest Front end UI coding challenge.  The purpose of this is to see how you might go about solving front end UI problems.  This is an opportunity for you to show how you like to organinze a front end project from templates and styles, to api interaction.
+Hi!  Thanks for taking part in the Earnest Front end UI coding challenge.  The purpose of this is to see how you might go about solving front end UI problems.
 
 ## Assumptions
 Start with an array of plain old javascript objects (representing users) each of which has a name and a list of roles. E.g.:
