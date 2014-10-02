@@ -17,7 +17,7 @@ Requirements:
 - View all current users with their respective roles enumerated.
 - Supports any number of "users" in the object
 
-## Part 2: Add/remove users in the arra
+## Part 2: Add/remove users in the array
 Build in an add user UI.
 Requirements:
 
