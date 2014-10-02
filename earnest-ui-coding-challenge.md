@@ -10,14 +10,14 @@ var users = [{ name: 'Alex', roles:['admin','user','custom'] }]
 Assume each "user" object has a property `name` (string)  and a property `roles` (array)
 You may and are encouraged to utilize any framework you see fit for the job. (Angular, Backbone, React,... etc).
 
-## Part 1: view array of users
+## Part 1: View array of users
 Build a view all users interface. 
 Requirements:
 
 - view all current users with their respective roles enumerated.
 - supports any number of "users" in the object
 
-## Part 2: add/remove users in the arra
+## Part 2: Add/remove users in the arra
 Build in an add user UI.
 Requirements:
 
