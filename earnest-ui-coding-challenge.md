@@ -1,6 +1,6 @@
 # Earnest UI Coding Challenge
 
-Hi!  Thanks for taking part in the Earnest Front end UI coding challenge.  The purpose of this is to see how you might go about solving front end UI problems. You may and are encouraged to utilize any framework you see fit for the job. (Angular, Backbone, React,... etc).  Also if you appreciate clean UI's you are encouraged to use a CSS library like Twitter's Bootstrap or Zurb's Foundation.
+Hi!  Thanks for taking part in the Earnest Front end UI coding challenge.  The purpose of this is to see how you might go about solving front end UI problems. You may and are encouraged to utilize any framework you see fit for the job. (Angular, Backbone, React,... etc).  Also, if you appreciate clean UI's, you are encouraged to use a CSS library like Twitter's Bootstrap or Zurb's Foundation.
 
 ## Assumptions
 Start with an array of plain old javascript objects (representing users) each of which has a name and a list of roles. E.g.:
