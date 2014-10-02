@@ -14,17 +14,17 @@ You may and are encouraged to utilize any framework you see fit for the job. (An
 Build a view all users interface. 
 Requirements:
 
-- view all current users with their respective roles enumerated.
-- supports any number of "users" in the object
+- View all current users with their respective roles enumerated.
+- Supports any number of "users" in the object
 
 ## Part 2: Add/remove users in the arra
 Build in an add user UI.
 Requirements:
 
-- create a new user with roles
-- add the array of users
-- the created user should be visible in the list of users once added
-- ability to remove an existing user from the array
+- Create a new user with roles
+- Add the array of users
+- The created user should be visible in the list of users once added
+- Ability to remove an existing user from the array
 
 ## Part 3: Edit user
 Build in a way to edit an existing user.
