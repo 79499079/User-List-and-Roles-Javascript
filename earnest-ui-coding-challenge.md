@@ -1,6 +1,6 @@
 # Earnest UI Coding Challenge
 
-Hi!  Thanks for taking part in the Earnest Front end UI coding challenge.  The purpose of this is to see how you might go about solving front end UI problems.
+Hi!  Thanks for taking part in the Earnest Front end UI coding challenge.  The purpose of this is to see how you might go about solving front end UI problems. You may and are encouraged to utilize any framework you see fit for the job. (Angular, Backbone, React,... etc).
 
 ## Assumptions
 Start with an array of plain old javascript objects (representing users) each of which has a name and a list of roles. E.g.:
@@ -8,7 +8,7 @@ Start with an array of plain old javascript objects (representing users) each of
 var users = [{ name: 'Alex', roles:['admin','user','custom'] }]
 ```
 Assume each "user" object has a property `name` (string)  and a property `roles` (array)
-You may and are encouraged to utilize any framework you see fit for the job. (Angular, Backbone, React,... etc).
+
 
 ## Part 1: View array of users
 Build a view all users interface. 
