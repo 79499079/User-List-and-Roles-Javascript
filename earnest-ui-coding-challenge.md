@@ -1,6 +1,6 @@
 # Earnest UI Coding Challenge
 
-Hi!  Thanks for taking part in the Earnest Front end UI coding challenge.  The purpose of this is to see how you might go about solving front end UI problems. You may, and are encouraged to, utilize any JavaScript library or framework that you are comfortable with, and that you see fit for the job. Also, you are encouraged clean it up with some CSS; feel free to use a CSS library like Twitter's Bootstrap or Zurb's Foundation.
+Hi!  Thanks for taking part in the Earnest Front end UI coding challenge.  The purpose of this is to see how you might go about solving front end UI problems. You may utilize any JavaScript library or framework that you are comfortable with, and that you see fit for the job. Also, you are encouraged clean it up with some CSS; feel free to use a CSS library like Twitter's Bootstrap or Zurb's Foundation.
 
 Note: Do
 
