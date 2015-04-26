@@ -40,6 +40,7 @@ var addUser = function(event){
 var editUser = function(){
   console.log("edit")
   var listItem = this.parentNode
+  console.log(listItem)
   var userName = listItem.querySelector("label[type=text]")
   var editInput = listItem.querySelector("input");
   for(var i=0; i<usersArray.length; i++) {

@@ -1,0 +1,108 @@
+body{
+  background: white;
+  font-family: 'EB Garamond', serif;
+}
+
+h1{
+  font-family: Lato;
+  font-weight: 400;
+  background: white;
+  padding: 5px;
+}
+.main {
+  margin: 10% auto;
+  text-align: center;
+  width: 400px;
+  background-color: whitesmoke;
+  padding: 50px;
+}
+
+.main-paragraph, #users{
+  text-align: left;
+}
+.add-user{
+  text-align: center;
+  margin: 0 auto;
+}
+#add-user{
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+button{
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+
+  -webkit-transition: background .75s;
+  transition: background .75s, color: white;
+}
+
+button:hover{
+  background: dimgray;
+  color: white;
+  cursor: pointer;
+  cursor: hand;
+}
+
+
+button{
+  font-family: 'EB Garamond', serif;
+}
+input, label{
+  border: none;
+}
+.input-paragraph > input, .input-paragraph > label{
+  border-bottom: 2px inset;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 3px;
+}
+label{
+  padding-bottom: 0px;
+}
+
+.input-paragraph{
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul, li{
+  list-style-type: none;
+}
+#users{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+.user-name, .users-li > input{
+  font-size: 18px;
+  border-bottom: 2px whitesmoke solid;
+}
+.edit-user, .delete-user, .edit-role, .delete-role{
+  /*float: right;*/
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+}
+.delete-user, .delete-role{
+  float: right;
+  border-left: 3px solid white;
+}
+.edit-user, .edit-role{
+  float:right;
+}
+.users-li{
+  background-color: white;
+}
+.role-li{
+  border-bottom: 2px inset;
+}
+#new-user, #user-roles{
+  padding-bottom: 6px;
+}
