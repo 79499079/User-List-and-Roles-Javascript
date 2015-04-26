@@ -1,0 +1,41 @@
+
+
+<!-- create a  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <!-- create form to add a new user to the users array -->
+<p>
+  <label for="new-user">Add User</label><input id="new-user" type="text"><label for="user-roles">Roles</label><input id="user-roles" type="text"><button id="add-user">Add</button>
+</p>
+
+<ul id="users"> 
+</ul>
+
+
+
+
+  <script id="my-template" type="text/x-handlebars-template">
+    {{#each userdata}}
+    <li><label type="text">{{name}}</label><input type = "text"><button class="edit-user">Edit User</button><button class="delete-user">Delete User</button>
+      <ul>
+      {{#each roles}}
+        <li><label type="text">{{this}}</label><input type = "text"><button class="edit-role">Edit Role</button><button class="delete-role">Delete Role</button>
+        </li>
+      {{/each}}
+      </ul>   
+    {{/each}}
+  </script>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
