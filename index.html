@@ -33,10 +33,10 @@
 
   <script id="my-template" type="text/x-handlebars-template">
     {{#each userdata}}
-    <li class="users-li"><label type="text" class="user-name">{{name}}</label><input type = "text"><button class="delete-user">delete</button><button class="edit-user">edit</button>
+    <li class="users-li"><label type="text" class="user-name">{{name}}</label>:<input type = "text"><button class="delete-user">delete</button><button class="edit-user">edit</button>
       <ul>
       {{#each roles}}
-        <li class="role-li"><label type="text">{{this}}</label><input type = "text"><button class="delete-role">delete Role</button><button class="edit-role">edit Role</button>
+        <li class="role-li"><label type="text">{{this}}</label>:<input type = "text"><button class="delete-role">delete role</button><button class="edit-role">edit role</button>
         </li>
       {{/each}}
       </ul>   
