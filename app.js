@@ -21,11 +21,8 @@ var addUserRole = document.getElementById("user-roles");
 
 // new user creation
 var createNewUser = function(userName, roles, event){
-  console.log([roles])
-  var listItem = usersArray.push({name: userName, roles: [roles]});
-  var user = usersArray[listItem - 1];
+  usersArray.push({name: userName, roles: [roles]});
   call();
-  return user;
 }
 
 // create new user 
@@ -40,7 +37,6 @@ var addUser = function(event){
 var editUser = function(){
   console.log("edit")
   var listItem = this.parentNode
-  console.log(listItem)
   var userName = listItem.querySelector("label[type=text]")
   var editInput = listItem.querySelector("input");
   for(var i=0; i<usersArray.length; i++) {
@@ -60,6 +56,8 @@ var deleteUser = function(){
   for(var i=0; i<usersArray.length; i++) {
     for(key in usersArray[i]) {
       if(usersArray[i][key].indexOf(userName.innerHTML)!=-1) {
+        var userIndex = i
+        console.log(userIndex)
         usersArray.splice(i, 1);
         call();
         }
